@@ -1,0 +1,38 @@
+*{
+	margin:0 auto;
+	padding:0;
+}
+ul{
+	list-style-type:none;
+	}
+.branch_bar{
+	width:600px;
+	height:220px;
+	overflow:hidden;
+	position:relative;
+	top: -50px;
+	}
+.branch_bar .branch{
+	width:3200px;
+	}
+.branch_bar .branch li{
+	float:left;
+	}
+.branch_bar .branch li img{
+	width:100px;
+	height:100px;
+	}
+.prev{
+	position:absolute;
+	top:200px;
+	left:10px;
+	color:black;
+	cursor:pointer;
+	}
+.next{
+	position:absolute;
+	top:200px;
+	right:0px;
+	color:black;
+	cursor:pointer;
+	}
